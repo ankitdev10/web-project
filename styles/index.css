@@ -1,4 +1,70 @@
-body {
-  background: blue;
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-style: monaco;
+}
+#container{
+     border: solid;
+    width: 100%;
+    height: 15vh;
+    background-color:  #FFFFFF;
+   
+    top: 0;
+    
 
 }
+#mynav{
+    display: flex;
+    }
+    li{
+        border: solid;
+        display: inline;
+        font-size: 30px;
+        padding: 0px 55px;
+}
+#list{
+
+padding-top: 33px;
+padding-bottom: 30px;
+
+}
+#logo{
+padding-left: 20%;
+padding-right: 20%;
+padding-top: 30px;
+padding-bottom: 30px;
+border: solid;
+}
+.bodycontainer{
+ 
+
+width: 75%;
+height:vh ;
+margin: auto;
+}
+.grid{
+  
+  margin-top: 25px;
+  border: solid;
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  gap: 3px;
+ padding-left:14px;
+  
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a::visited{
+  color: rgb(7, 245, 245);
+}
+#img1{
+  
+ 
+}
+
+
