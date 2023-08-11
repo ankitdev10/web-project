@@ -33,18 +33,18 @@ nav {
   align-items: center;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 40px;
 }
 
-li {
+nav ul li {
   font-size: 20px;
   font-weight: 500;
 }
 
-li:hover {
+nav ul li:hover {
   text-decoration: underline;
 }
 
