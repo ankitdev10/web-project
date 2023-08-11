@@ -6,6 +6,9 @@
   scroll-behavior: smooth;
   font-family: "Blinker", sans-serif;
 }
+body {
+  font-family: "Blinker", sans-serif;
+}
 
 .container {
   height: 100vh;

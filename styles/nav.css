@@ -1,0 +1,43 @@
+nav {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+  background: rgb(255, 254, 254);
+  /* background: #000; */
+}
+
+.nav-wrapper {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+
+i {
+  cursor: pointer;
+}
+nav ul li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
