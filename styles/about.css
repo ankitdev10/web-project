@@ -13,10 +13,36 @@ body {
 .container {
   position: relative;
 }
-
-.wrapper {
-  position: relative;
-  margin-top: 96px;
+.about-wrapper {
   width: 80%;
   margin: auto;
+  margin-top: 200px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  gap: 36px;
+}
+
+.top img,
+.bottom img {
+  flex: 1;
+}
+
+.info {
+  margin-top: 48px;
+  flex: 1;
+}
+
+.info p {
+  margin-top: 24px;
+  width: 90%;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bottom {
+  margin-top: 96px;
 }

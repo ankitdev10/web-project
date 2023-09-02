@@ -4,9 +4,11 @@ nav {
   width: 100%;
   top: 0;
   z-index: 100;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
   background: rgb(255, 254, 254);
-  /* background: #000; */
+  transition: all 750ms ease-in-out;
+}
+nav.scrolled {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 .nav-wrapper {
@@ -40,4 +42,44 @@ nav ul li:hover {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+footer {
+  margin-top: 48px;
+  background: rgb(53, 53, 53);
+  color: white;
+  padding: 48px 0;
+}
+
+footer .wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: mediumspringgreen;
+}
+
+footer h5 {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 920px) {
+  nav {
+    display: none;
+  }
 }
