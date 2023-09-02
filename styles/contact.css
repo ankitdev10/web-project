@@ -14,9 +14,94 @@ body {
   position: relative;
 }
 
-.wrapper {
-  position: relative;
-  margin-top: 96px;
+.contact-wrapper {
   width: 80%;
-  margin: auto;
+  display: flex;
+  margin: 150px auto;
+  justify-content: space-between;
+}
+.location {
+  flex: 1;
+}
+.location h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.location p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.location img {
+  margin-top: 32px;
+  width: 450px;
+  aspect-ratio: 16/9;
+}
+
+.location ul {
+  margin-top: 24px;
+}
+
+.location ul li {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.location ul li:last-child {
+  gap: 16px;
+  margin-top: 24px;
+}
+.location ul li i {
+  font-size: 24px;
+}
+
+.location ul li span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+form {
+  flex: 1;
+  border: 2px solid grey;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+form input,
+textarea {
+  width: 100%;
+  padding: 10px 16px;
+  outline: none;
+  border: 2px solid gray;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(28, 27, 27);
+}
+form h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+form button {
+  width: max-content;
+  padding: 6px 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid rgb(0 0 0 / 21%);
+  cursor: pointer;
+  transition: all 0.75 ease;
+  font-weight: 700;
+}
+
+form button:hover {
+  background: rgb(0 0 0 / 21%);
+  color: white;
 }
